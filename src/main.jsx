@@ -145,7 +145,7 @@ function App() {
         </a>
         <nav aria-label="Main navigation">
           <a href="#about">About</a>
-          <a href="#work">Work</a>
+          <a href="#gallery">Gallery</a>
           <a
             href="https://www.instagram.com/weeknight.ceramics/"
             target="_blank"
@@ -197,9 +197,9 @@ function App() {
           </div>
         </section>
 
-        <section className="work" id="work">
+        <section className="gallery" id="gallery">
           <div className="section-heading">
-            <p className="eyebrow">Selected work</p>
+            <p className="eyebrow">Gallery</p>
             {/* <h2>Colorful pottery, thoughtfully made.</h2> */}
           </div>
           <div className="gallery-grid">

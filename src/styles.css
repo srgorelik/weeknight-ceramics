@@ -182,9 +182,15 @@ h2 {
   text-decoration: none;
 }
 
-/* Work section */
+/*
+  Gallery
 
-.work {
+  Images retain their natural proportions.
+  Each row is filled by allowing cards to grow.
+  Cards remain in normal left-to-right document order.
+*/
+
+.gallery {
   padding-bottom: clamp(100px, 12vw, 170px);
 }
 
@@ -195,14 +201,6 @@ h2 {
   gap: 40px;
   margin-bottom: 54px;
 }
-
-/*
-  Gallery
-
-  Images retain their natural proportions.
-  Each row is filled by allowing cards to grow.
-  Cards remain in normal left-to-right document order.
-*/
 
 .gallery-grid {
   display: flex;
