@@ -235,19 +235,19 @@ function App() {
             <h1>Modern functional ceramics.</h1>
             <div className="bio">
               <p>
-                Seth Gorelik is the potter behind{" "}
-                <span className="wee">Wee</span>knight Ceramics. By day, he
-                works as a geospatial data scientist using satellite imagery to
-                study forests around the world. During weeknights and weekends,
-                he trades computer screens for clay and the hands-on process of
-                making functional pottery.
+                <span className="wee">Wee</span>knight Ceramics is the work of
+                Seth Gorelik. By day, Seth is a geospatial data scientist, using
+                satellite imagery to study forests around the world. During
+                weeknights and weekends, he trades computer screens for clay,
+                enjoying the hands-on process of making functional pottery.
               </p>
               <p>
-                Using a variety of techniques, Seth builds colorful pieces that
+                Using a variety of techniques, Seth creates colorful pieces that
                 sometimes evoke landscapes and sunsets, while other times simply
-                play with geometric form or special effects glazes. He enjoys
-                experimenting with mug shapes, sizes, handles, and glaze
-                palettes that tie each collection together.
+                explore geometric forms or the unique character of effect
+                glazes. He enjoys experimenting with shapes, sizes, handles, and
+                glaze combinations, allowing each collection to develop its own
+                personality.
               </p>
               <p>
                 Whether it holds a cup of coffee or bouquet of flowers, Seth
