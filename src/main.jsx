@@ -5,33 +5,33 @@ import "./styles.css";
 const galleryItems = [
   {
     src: "/images/wavyBlackMug.jpg",
-    alt: "Color-block ceramic mug",
-    caption: "Color-block mug",
+    alt: "Wavy black and white porcelain mug with tape resist.",
+    caption: "Wavy black and white porcelain mug with tape resist.",
   },
   {
     src: "/images/glacierMug.jpg",
-    alt: "Tape-resist ceramic mug",
-    caption: "Tape-resist mug",
+    alt: "Faceted porcelain mug in glacial blue and white.",
+    caption: "Faceted porcelain mug in glacial blue and white.",
   },
   {
     src: "/images/geomWhiteMug.jpg",
-    alt: "Geometric ceramic mug",
-    caption: "Geometric mug",
+    alt: "Geometric color block porcelain mug with white trim.",
+    caption: "Geometric color block porcelain mug with white trim.",
   },
   {
     src: "/images/geomBlackMug.jpg",
-    alt: "Handmade ceramic mug",
-    caption: "Everyday mug",
+    alt: "Geometric color block porcelain mug with black trim.",
+    caption: "Geometric color block porcelain mug with black trim.",
   },
   {
     src: "/images/wavyWhiteMug.jpg",
-    alt: "Sunset-inspired ceramic mug",
-    caption: "Sunset palette",
+    alt: "White porcelain mug with tape resist wave design",
+    caption: "White porcelain mug with tape resist wave design.",
   },
   {
     src: "/images/crawlMug.jpg",
-    alt: "Collection of handmade mugs",
-    caption: "Recent collection",
+    alt: "Blue and green crackle glaze on a white porcelain mug.",
+    caption: "Blue and green crackle glaze on a white porcelain mug.",
   },
 ];
 
