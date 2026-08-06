@@ -250,9 +250,9 @@ function App() {
                 palettes that tie each collection together.
               </p>
               <p>
-                Whether it holds a first cup of coffee or an evening tea, Seth
-                hopes each mug becomes an everyday companion that brings a
-                little more color and joy to an ordinary moment.
+                Whether it holds a cup of coffee or bouquet of flowers, Seth
+                hopes his functional ware becomes an everyday companion that
+                brings a little more color and joy to an ordinary moment.
               </p>
             </div>
             <a
