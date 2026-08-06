@@ -312,7 +312,8 @@ function App() {
                     <h3>
                       {event.link ? (
                         <a href={event.link} target="_blank" rel="noreferrer">
-                          {event.title} ↗
+                          {event.title}
+                          <span aria-hidden="true">&nbsp;&#8599;</span>
                         </a>
                       ) : (
                         event.title
