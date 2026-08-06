@@ -166,11 +166,19 @@ main {
   max-width: 720px;
 }
 
-.eyebrow {
+.hero .eyebrow {
   margin: 0 0 22px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
@@ -183,7 +191,7 @@ h2 {
 
 h1 {
   margin: 0 0 46px;
-  font-size: clamp(3.15rem, 6.6vw, 6.65rem);
+  font-size: clamp(3.15rem, 5.6vw, 5.65rem);
   line-height: 0.94;
 }
 
