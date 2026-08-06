@@ -191,43 +191,73 @@ function App() {
       </header>
 
       <main id="top">
-        <section className="hero" id="about">
-          <div className="hero-mark">
-            <img src="/weeknightceramics_logo_blue.svg" alt="" />
-          </div>
-          <div className="hero-copy">
-            <p className="eyebrow">Handmade in Madison, Wisconsin</p>
-            <h1>Modern functional ceramics.</h1>
-            <div className="bio">
-              <p>
-                Seth Gorelik is a potter based in Madison, Wisconsin, and the
-                maker behind <span className="wee">Wee</span>knight Ceramics. By
-                day, he works as a geospatial scientist using satellite imagery
-                to study forests around the world. During weeknights and
-                weekends, he trades computer screens for clay and the hands-on
-                process of making functional pottery.
-              </p>
-              <p>
-                Using tape-resist techniques, Seth builds colorful pieces that
-                sometimes evoke landscapes and sunsets, while other pieces
-                simply play with geometric form. He enjoys experimenting with
-                mug shapes, sizes, handles, and glaze palettes that tie each
-                collection together.
-              </p>
-              <p>
-                Whether it holds a first cup of coffee or an evening tea, Seth
-                hopes each mug becomes an everyday companion that brings a
-                little more color and joy to an ordinary moment.
-              </p>
+        <section className="hero" aria-labelledby="hero-heading">
+          <div className="hero-intro">
+            <div className="hero-mark">
+              <img src="/weeknightceramics_logo_blue.svg" alt="" />
             </div>
-            <a
-              className="instagram-link"
-              href="https://www.instagram.com/weeknight.ceramics/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Follow @weeknight.ceramics <span>↗</span>
-            </a>
+
+            <div className="hero-heading">
+              <p className="eyebrow">Handmade in Madison, Wisconsin</p>
+              <h1 id="hero-heading">Modern functional ceramics.</h1>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-section" id="about">
+          <div className="about-content">
+            <div className="section-heading">
+              <p className="eyebrow">About</p>
+            </div>
+
+            <div className="about-row">
+              <div className="portrait portrait-desktop">
+                <img src="/images/seth.jpg" alt="Seth in the ceramics studio" />
+              </div>
+
+              <div className="hero-copy">
+                <div className="bio">
+                  <p>
+                    Seth Gorelik is a potter based in Madison, Wisconsin, and
+                    the maker behind <span className="wee">Wee</span>knight
+                    Ceramics. By day, he works as a geospatial scientist using
+                    satellite imagery to study forests around the world. During
+                    weeknights and weekends, he trades computer screens for clay
+                    and the hands-on process of making functional pottery.
+                  </p>
+
+                  <div className="portrait portrait-mobile">
+                    <img
+                      src="/images/seth.jpg"
+                      alt="Seth in the ceramics studio"
+                    />
+                  </div>
+
+                  <p>
+                    Using tape-resist techniques, Seth builds colorful pieces
+                    that sometimes evoke landscapes and sunsets, while other
+                    pieces simply play with geometric form. He enjoys
+                    experimenting with mug shapes, sizes, handles, and glaze
+                    palettes that tie each collection together.
+                  </p>
+
+                  <p>
+                    Whether it holds a first cup of coffee or an evening tea,
+                    Seth hopes each mug becomes an everyday companion that
+                    brings a little more color and joy to an ordinary moment.
+                  </p>
+                </div>
+
+                <a
+                  className="instagram-link"
+                  href="https://www.instagram.com/weeknight.ceramics/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Follow @weeknight.ceramics <span>↗</span>
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
