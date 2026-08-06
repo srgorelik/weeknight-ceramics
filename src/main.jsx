@@ -311,9 +311,13 @@ function App() {
                   <div className="event-details">
                     <h3>
                       {event.link ? (
-                        <a href={event.link} target="_blank" rel="noreferrer">
+                        <a
+                          className="external-link"
+                          href={event.link}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           {event.title}
-                          <span aria-hidden="true">&nbsp;&#8599;</span>
                         </a>
                       ) : (
                         event.title
