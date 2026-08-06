@@ -170,7 +170,7 @@ main {
   margin: 0 0 22px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  font-size: 0.72rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -308,6 +308,55 @@ h2 {
 .photo-placeholder small {
   font-size: 0.72rem;
   letter-spacing: 0.04em;
+}
+
+/* Events */
+
+.events {
+  margin: 0 auto;
+  padding-bottom: clamp(100px, 12vw, 170px);
+}
+
+.events-list {
+  border-top: 1px solid rgba(28, 113, 216, 0.35);
+}
+
+.event-item {
+  display: grid;
+  grid-template-columns: minmax(160px, 0.35fr) minmax(0, 1fr);
+  gap: 40px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(28, 113, 216, 0.35);
+}
+
+.event-item time {
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.event-details h3 {
+  margin: 0 0 6px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.event-details h3 a {
+  text-decoration: none;
+}
+
+.event-details h3 a:hover {
+  opacity: 0.6;
+}
+
+.event-details p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.event-item.past {
+  opacity: 0.42;
 }
 
 /* Footer */
@@ -544,5 +593,11 @@ footer {
   .lightbox-nav {
     width: 42px;
     height: 50px;
+  }
+
+  .event-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 22px 0;
   }
 }

@@ -2,6 +2,33 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
+const events = [
+  {
+    date: "2026-08-13",
+    title: "Grand Inspired Mug Show",
+    location: "Grand Inspired Gallery | Stoughton, WI",
+    link: "https://grandinspired.com/event/mug-show/",
+  },
+  {
+    date: "2026-04-17",
+    title: "Spring Studio Sale",
+    location: "Midwest Clay Project | Madison, WI",
+    link: "https://www.midwestclayproject.com/2026-annual-spring-pottery-sale/",
+  },
+  {
+    date: "2025-04-18",
+    title: "Spring Studio Sale",
+    location: "Midwest Clay Project | Madison, WI",
+    link: "https://www.midwestclayproject.com/2025-annual-spring-pottery-sale/",
+  },
+  {
+    date: "2024-04-19",
+    title: "Spring Studio Sale",
+    location: "Midwest Clay Project | Madison, WI",
+    link: null,
+  },
+];
+
 const galleryItems = [
   {
     src: "/images/wavyBlackMug.jpg",
@@ -133,6 +160,10 @@ function App() {
     );
   const next = () => setActiveIndex((activeIndex + 1) % galleryItems.length);
 
+  const sortedEvents = [...events].sort(
+    (a, b) => new Date(b.date) - new Date(a.date),
+  );
+
   return (
     <>
       <header className="site-header">
@@ -177,6 +208,10 @@ function App() {
 
           <a href="#gallery" onClick={() => setMenuOpen(false)}>
             Gallery
+          </a>
+
+          <a href="#events" onClick={() => setMenuOpen(false)}>
+            Events
           </a>
 
           <a
@@ -245,6 +280,50 @@ function App() {
                 onOpen={setActiveIndex}
               />
             ))}
+          </div>
+        </section>
+
+        <section className="events" id="events">
+          <div className="section-heading">
+            <p className="eyebrow">Events</p>
+          </div>
+
+          <div className="events-list">
+            {sortedEvents.map((event) => {
+              const isPast = new Date(event.date) < new Date();
+
+              return (
+                <article
+                  className={`event-item ${isPast ? "past" : "upcoming"}`}
+                  key={`${event.date}-${event.title}`}
+                >
+                  <time dateTime={event.date}>
+                    {new Date(`${event.date}T12:00:00`).toLocaleDateString(
+                      "en-US",
+                      {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                      },
+                    )}
+                  </time>
+
+                  <div className="event-details">
+                    <h3>
+                      {event.link ? (
+                        <a href={event.link} target="_blank" rel="noreferrer">
+                          {event.title} ↗
+                        </a>
+                      ) : (
+                        event.title
+                      )}
+                    </h3>
+
+                    <p>{event.location}</p>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </section>
       </main>
