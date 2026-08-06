@@ -359,9 +359,10 @@ h2 {
   opacity: 0.42;
 }
 
-.external-link::after {
-  content: " ↗";
-  font-size: 0.85em;
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 /* Footer */
