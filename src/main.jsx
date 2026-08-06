@@ -252,7 +252,7 @@ function App() {
               <p>
                 Whether it holds a cup of coffee or bouquet of flowers, Seth
                 hopes his functional ware becomes an everyday companion that
-                brings a little more color and joy to an ordinary moment.
+                brings a little more color and joy to ordinary moments.
               </p>
             </div>
             <a
