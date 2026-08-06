@@ -235,19 +235,19 @@ function App() {
             <h1>Modern functional ceramics.</h1>
             <div className="bio">
               <p>
-                Seth Gorelik is a potter based in Madison, Wisconsin, and the
-                maker behind <span className="wee">Wee</span>knight Ceramics. By
-                day, he works as a geospatial scientist using satellite imagery
-                to study forests around the world. During weeknights and
-                weekends, he trades computer screens for clay and the hands-on
-                process of making functional pottery.
+                Seth Gorelik is the potter behind{" "}
+                <span className="wee">Wee</span>knight Ceramics. By day, he
+                works as a geospatial data scientist using satellite imagery to
+                study forests around the world. During weeknights and weekends,
+                he trades computer screens for clay and the hands-on process of
+                making functional pottery.
               </p>
               <p>
-                Using tape-resist techniques, Seth builds colorful pieces that
-                sometimes evoke landscapes and sunsets, while other pieces
-                simply play with geometric form. He enjoys experimenting with
-                mug shapes, sizes, handles, and glaze palettes that tie each
-                collection together.
+                Using a variety of techniques, Seth builds colorful pieces that
+                sometimes evoke landscapes and sunsets, while other times simply
+                play with geometric form or special effects glazes. He enjoys
+                experimenting with mug shapes, sizes, handles, and glaze
+                palettes that tie each collection together.
               </p>
               <p>
                 Whether it holds a first cup of coffee or an evening tea, Seth
