@@ -123,6 +123,8 @@ function Lightbox({ item, onClose, onPrevious, onNext }) {
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const activeItem = activeIndex === null ? null : galleryItems[activeIndex];
 
   const previous = () =>
@@ -134,7 +136,12 @@ function App() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Weeknight Ceramics home">
+        <a
+          className="brand"
+          href="#top"
+          aria-label="Weeknight Ceramics home"
+          onClick={() => setMenuOpen(false)}
+        >
           <img
             src="/weeknightceramics_logo_blue.svg"
             alt="Weeknight Ceramics logo"
@@ -143,13 +150,40 @@ function App() {
             <span className="wee">Wee</span>knight Ceramics
           </span>
         </a>
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#gallery">Gallery</a>
+
+        <button
+          className="menu-toggle"
+          type="button"
+          aria-label={
+            menuOpen ? "Close navigation menu" : "Open navigation menu"
+          }
+          aria-expanded={menuOpen}
+          aria-controls="main-navigation"
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        <nav
+          id="main-navigation"
+          className={`main-nav ${menuOpen ? "is-open" : ""}`}
+          aria-label="Main navigation"
+        >
+          <a href="#about" onClick={() => setMenuOpen(false)}>
+            About
+          </a>
+
+          <a href="#gallery" onClick={() => setMenuOpen(false)}>
+            Gallery
+          </a>
+
           <a
             href="https://www.instagram.com/weeknight.ceramics/"
             target="_blank"
             rel="noreferrer"
+            onClick={() => setMenuOpen(false)}
           >
             Instagram ↗
           </a>
