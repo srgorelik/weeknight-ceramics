@@ -26,7 +26,9 @@ body {
   margin: 0;
   min-width: 320px;
   /* background: #fff3da; */
-  background: #f2ff7b;
+  /* background: #ecff45; */
+  /* background: #1cd9c8; */
+  background: #e5ff22;
 }
 
 body.modal-open {
