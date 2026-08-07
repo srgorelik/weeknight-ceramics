@@ -33,6 +33,7 @@ npm run preview
 - React
 - Vite
 - CSS
+- Vercel
 
 ## Copyright
 
