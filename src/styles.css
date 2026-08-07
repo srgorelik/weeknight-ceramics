@@ -19,12 +19,14 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {
   margin: 0;
   min-width: 320px;
-  background: #fff3da;
+  /* background: #fff3da; */
+  background: #f2ff7b;
 }
 
 body.modal-open {
