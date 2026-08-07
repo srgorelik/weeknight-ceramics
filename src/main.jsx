@@ -31,19 +31,55 @@ const events = [
 
 const galleryItems = [
   {
+    src: "/images/dotVase.jpg",
+    alt: "Porcelain vase in turquoise and chartreuse with red dots.",
+    caption: "Porcelain vase in turquoise and chartreuse with red dots.",
+  },
+  {
+    src: "/images/crackleVase.jpg",
+    alt: "Porcelain vase in turquoise and chartreuse with blue and purple crackle.",
+    caption:
+      "Porcelain vase in turquoise and chartreuse with blue and purple crackle.",
+  },
+  {
+    src: "/images/blockMug.jpg",
+    alt: "Geometric color block porcelain mug.",
+    caption: "Geometric color block porcelain mug.",
+  },
+  {
+    src: "/images/robotMug.jpg",
+    alt: "Geometric color block porcelain mug.",
+    caption: "Geometric color block porcelain mug.",
+  },
+  {
+    src: "/images/waveBlockMug.jpg",
+    alt: "Porcelain mug with a colorful wave and black trim.",
+    caption: "Porcelain mug with a colorful wave and black trim.",
+  },
+  {
+    src: "/images/turtlePowerMugs.jpg",
+    alt: "Porcelain turtle power mugs.",
+    caption: "Porcelain turtle power mugs.",
+  },
+  {
+    src: "/images/blueTopoMug.jpg",
+    alt: "Porcelain mug with blue topographic lines.",
+    caption: "Porcelain mug with blue topographic lines.",
+  },
+  {
     src: "/images/wavyBlackMug.jpg",
     alt: "Wavy black and white porcelain mug with tape resist.",
     caption: "Wavy black and white porcelain mug with tape resist.",
   },
   {
-    src: "/images/glacierMug.jpg",
-    alt: "Faceted porcelain mug in glacial blue and white.",
-    caption: "Faceted porcelain mug in glacial blue and white.",
+    src: "/images/crawlMug.jpg",
+    alt: "Blue and green crackle glaze on a white porcelain mug.",
+    caption: "Blue and green crackle glaze on a white porcelain mug.",
   },
   {
-    src: "/images/geomWhiteMug.jpg",
-    alt: "Geometric color block porcelain mug with white trim.",
-    caption: "Geometric color block porcelain mug with white trim.",
+    src: "/images/carvedMug.jpg",
+    alt: "Carved white porcelain mug, on its side.",
+    caption: "Carved white porcelain mug, on its side.",
   },
   {
     src: "/images/geomBlackMug.jpg",
@@ -51,14 +87,19 @@ const galleryItems = [
     caption: "Geometric color block porcelain mug with black trim.",
   },
   {
+    src: "/images/geomWhiteMug.jpg",
+    alt: "Geometric color block porcelain mug with white trim.",
+    caption: "Geometric color block porcelain mug with white trim.",
+  },
+  {
+    src: "/images/glacierMug.jpg",
+    alt: "Faceted porcelain mug in glacial blue and white.",
+    caption: "Faceted porcelain mug in glacial blue and white.",
+  },
+  {
     src: "/images/wavyWhiteMug.jpg",
     alt: "White porcelain mug with tape resist wave design",
     caption: "White porcelain mug with tape resist wave design.",
-  },
-  {
-    src: "/images/crawlMug.jpg",
-    alt: "Blue and green crackle glaze on a white porcelain mug.",
-    caption: "Blue and green crackle glaze on a white porcelain mug.",
   },
 ];
 
