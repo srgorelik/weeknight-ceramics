@@ -7,9 +7,10 @@
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  color: #1c71d8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  --fg-color: #1c71d8;
+  --bg-color: #c8eef0;
 }
 
 * {
@@ -24,15 +25,8 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  /* background: #f4f1eb; */
-  /* background: #fff3da; */
-  /* background: #ecff45; */
-  /* background: #e5ff22; */
-  /* background: #1cd9c8; */
-  /* background: #e2ff81; */
-  /* background: #c3e2ff; */
-  /* background: #f0fbcc; */
-  background: #c8eef0;
+  color: var(--fg-color);
+  background: var(--bg-color);
 }
 
 body.modal-open {
@@ -508,7 +502,7 @@ footer {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    background: #fff3da;
+    background: var(--bg-color);
     border: 1px solid rgba(28, 113, 216, 0.35);
     box-shadow: 0 14px 28px rgba(28, 113, 216, 0.12);
 
