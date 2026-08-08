@@ -8,7 +8,6 @@
     "Segoe UI",
     sans-serif;
   color: #1c71d8;
-  background: #f4f1eb;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -25,11 +24,15 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  /* background: #f4f1eb; */
   /* background: #fff3da; */
   /* background: #ecff45; */
   /* background: #e5ff22; */
   /* background: #1cd9c8; */
-  background: #e2ff81;
+  /* background: #e2ff81; */
+  /* background: #c3e2ff; */
+  /* background: #f0fbcc; */
+  background: #c8eef0;
 }
 
 body.modal-open {
